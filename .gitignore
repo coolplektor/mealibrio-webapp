@@ -1,0 +1,21 @@
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local environment (keep the documented template)
+.env
+.env.*
+!.env.example
+*.local
+
+# IDE metadata
+.idea/
+*.iml
+.vscode/
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
